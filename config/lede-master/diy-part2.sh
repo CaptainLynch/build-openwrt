@@ -30,8 +30,8 @@ Modify default IP（FROM 192.168.1.1 CHANGE TO 192.168.31.4）
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
-svn co https://github.com/vernesong/OpenClash package/OpenClash
+svn co https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
+svn co https://github.com/vernesong/OpenClash.git package/OpenClash
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
